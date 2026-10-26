@@ -1,6 +1,6 @@
 # LogGuard: SSH Brute-Force Detection and Risk Reporting
 
-![tests](https://github.com/YOUR-USERNAME/logguard/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/rizz01/logguard/actions/workflows/tests.yml/badge.svg)
 
 A small, dependency-free Python command-line tool that reads Linux SSH authentication logs and
 web-server access logs and reports suspicious activity. It was built as a mini project after a Cyber Security &
@@ -21,7 +21,7 @@ and **security documentation**.
 Requires Python 3.8+ and no third-party packages.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/logguard.git
+git clone https://github.com/rizz01/logguard.git
 cd logguard
 python -m logguard samples/auth.log --year 2026
 ```
